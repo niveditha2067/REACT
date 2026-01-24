@@ -8,6 +8,95 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Within the project directory, you can execute the following commands:
+
+## 🚀 Challenge 1 – Project Initialization & Learning Basics
+- Initializes the React application using **Vite + React** for a faster development workflow.
+- Introduces the project’s folder structure and starter configuration.
+- Covers core React concepts such as JSX and component-based architecture.
+- Sets up the foundational environment for all upcoming challenges.
+
+### `npm start`
+---
+
+Starts the application in development mode.  
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+---
+
+## 📖 Challenge 2 – Blog Post Display Feature
+- Develops a `BlogPostDetail` component to render complete blog post content.
+- Displays post title, author name, publication date, and properly formatted content.
+- Gracefully handles cases where blog data is missing or invalid.
+- Ensures responsive layouts across mobile, tablet, and desktop screens.
+
+The page automatically reloads when changes are made.  
+Any linting issues will appear in the console.
+
+---
+
+### `npm test`
+## ✍️ Challenge 3 – Blog Post Creation & Editing
+- Creates a reusable `BlogPostForm` for adding and updating blog posts.
+- Implements form validation for mandatory fields such as title, content, and author.
+- Auto-fills existing data when editing a post.
+- Uses responsive layouts (two-column layout on desktop, single-column on mobile).
+
+Launches the test runner in interactive watch mode.  
+Refer to the [running tests](https://facebook.github.io/create-react-app/docs/running-tests) section for more details.
+
+---
+
+### `npm run build`
+## 🗑️ Challenge 4 – Blog Post Removal
+- Adds a Delete option to safely remove blog posts.
+- Displays a confirmation dialog before final deletion.
+- Includes accessibility enhancements such as keyboard navigation and focus management.
+- Ensures the confirmation dialog adapts well to different screen sizes.
+
+Builds the app for production in the `build` directory.  
+The build is optimized for performance and bundled for production use.
+
+---
+
+The output is minified, and filenames include content hashes.  
+Your application is now ready for deployment.
+
+---
+
+## 🧭 Challenge 5 – Responsive Navigation & Page Layout
+- Implements a fixed navigation bar with a logo and navigation links.
+- Adds a hamburger menu for smaller screens.
+- Uses a reusable `Layout` component containing header, main content, and footer.
+- Ensures smooth transitions, accessibility compliance, and responsive behavior.
+
+For more details, see the [deployment](https://facebook.github.io/create-react-app/docs/deployment) documentation.
+
+---
+
+### `npm run eject`
+## 💬 Challenge 6 – Comment Feature
+- Enables users to view and submit comments on blog posts.
+- Displays commenter name, timestamp, comment text, and an optional avatar.
+- Updates comments dynamically without reloading the page.
+- Maintains responsive design and accessible form interactions.
+
+**Note:** This is a one-way operation. Once ejected, reverting is not possible.
+
+---
+
+If you need full control over the build configuration, you can eject at any time.  
+This will remove the default build dependency and expose all configuration files.
+
+---
+
+## 🔍 Challenge 7 – Blog Search Functionality
+- Adds a search bar to filter blog posts by title or content.
+- Supports case-insensitive and real-time search results.
+- Highlights matching keywords and displays relevant post metadata.
+- Delivers a responsive and accessible search experience.
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
